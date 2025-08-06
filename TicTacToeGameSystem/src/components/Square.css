@@ -1,0 +1,19 @@
+.ttt-square {
+  width: 80px;
+  height: 80px;
+  font-size: 2.6rem;
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(60,60,60,0.04);
+  transition: background 0.2s;
+}
+.ttt-square:disabled {
+  cursor: not-allowed;
+  opacity: 0.66;
+}
+.ttt-square:active {
+  background: var(--bg-primary);
+}
