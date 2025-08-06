@@ -1,0 +1,17 @@
+.ttt-board {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  margin: 32px 0 18px;
+}
+
+@media (max-width: 480px) {
+  .ttt-board {
+    grid-template-columns: repeat(3, 52px);
+    grid-template-rows: repeat(3, 52px);
+    gap: 6px;
+  }
+}
